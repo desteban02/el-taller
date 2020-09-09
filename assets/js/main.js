@@ -3,6 +3,7 @@ function capturarDatos() {
   /**
    * Tipos de variables
    * var, let, const
+   * a
    */
   let txtNombre = document.getElementById("txtNombre");
   let txtCorreo = document.getElementById("txtCorreo");
