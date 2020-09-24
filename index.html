@@ -37,7 +37,7 @@
         <nav class="nav-menu">
           <ul>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/pages/registro.html">Nuestros servicios</a></li>
+            <li><a href="/pages/registro.html">Registro</a></li>
             <li><a href="/#nosotros">Sobre nosotros</a></li>
             <li><a href="/pages/blog">Blog</a></li>
           </ul>
@@ -156,12 +156,15 @@
           </center>
         </div>
         <div class="column">
-            <h3 style="color:blue;">Contacto</h3>
-                <form action="javascript:void(0)" onsubmit="metodos.capturarDatos3()">
-              <input required type="text" id="txtNombre" placeholder="Ingrese su nombre">
-              <input required type="email" id="txtCorreo" placeholder="Ingrese su correo">
-              <textarea required name="" id="txtMensaje" cols="30" rows="10"></textarea>
-              <input type="submit" value="Enviar" id="btnEnviar" />
+          <h3 style="color:white;">Contacto</h3>
+          <form action="javascript:void(0)" onsubmit="metodos.capturarDatos3()">
+              <input required type="email" id="txtCorreo" placeholder="Ingrese su correo"/>
+              <br>
+              <input required type="text" id="txtAsunto" placeholder="Ingrese el asunto"/>
+              <br>
+              <textarea required name="" placeholder="Ingrese un mensaje" id="txtMensaje" cols="20" rows="10"></textarea>
+              <br>
+              <input type="submit" value="Enviar" />
           </form>
         </div>
       </div>
